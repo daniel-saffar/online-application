@@ -1,0 +1,28 @@
+.grey-box{
+background-color:rgb(220,220,220);
+color:#a0292f;
+width:350px;
+height:250px;
+text-align:center;
+margin-bottom:40px;
+}
+
+.grey-box h2 {
+padding:0px;
+margin:0 auto;
+font-size:22px;
+}
+
+.grey-box h3 {
+padding:-10px 0 auto;
+margin:0 auto;
+font-size:20px;
+line-height:10px;
+}
+
+.grey-box p {
+padding:-20px 0 auto;
+margin:0 auto;
+font-size:16px;
+line-height:16px;
+}

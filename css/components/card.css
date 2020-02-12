@@ -1,0 +1,36 @@
+.card {
+    flex-basis: auto;
+    padding: 0px auto;
+    width: 300px;
+    height: 180px;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 4px;
+    text-align: center;
+    background-size: cover;
+	background-position:center;
+    filter:brightness(1.15);
+}
+
+
+.card h3 { 
+font-size:20px;
+font-weight:200;
+padding:0px 5px 0px 5px;
+}
+
+.card p { 
+font-size:12px;
+line-height: 18px;
+padding:0px 5px 0px 5px;
+position: center;
+}
+
+#purple { 
+background-image: url(../../images/card-purple.png);
+}
+
+#green {
+background-image: url(../../images/card-green.png);
+}
+

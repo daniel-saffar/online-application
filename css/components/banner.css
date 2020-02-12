@@ -1,0 +1,36 @@
+.banner { 
+background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%), url(../../images/students.jpg);
+color: white;
+padding: 200px 0px 0px;
+background-size: cover;
+background-position:center;
+width:100%;
+opacity: 110%;
+margin-bottom: 80px;
+}
+
+.banner-programme {
+background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%), url(../../images/data-analyst.jpeg);
+color: white;
+padding: 300px 0px 0px;
+background-size: cover;
+background-position:center;
+width:100%;
+opacity: 110%;
+margin-bottom: 40px;
+}
+
+.banner-programme h1{
+	padding-bottom:60px;
+}
+
+.banner-start{
+background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%), url(../../images/students.jpg);
+color: white;
+padding: 200px 0px 0px;
+background-size: cover;
+background-position:center;
+width:100%;
+height:500px;
+opacity: 110%;
+}

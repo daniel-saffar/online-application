@@ -1,0 +1,65 @@
+.sticky-band{
+	height:55px;
+	width:100%;
+	color:black;
+	background-color:white;
+	border-width:1px;
+	position:fixed;
+	overflow:hidden;
+}
+
+#profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 3px;
+    right: 12px;
+}
+
+.sticky-band h4{
+color:black;
+font-weight:700;
+font-size:14px;
+}
+
+.sticky-band img{
+width:90px;
+height:60px;
+}
+
+.sticky-band a{
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight:800;
+  font-size: 12px;
+} 
+.sticky-band a:hover{
+	text-decoration:none;
+	color:blue;
+}
+
+@media screen and (max-width: 600px) {
+  .sticky-band a:not(:first-child) {display: none;}
+  .sticky-band a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sticky-band.responsive {position: relative;}
+  .sticky-band.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .sticky-band.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

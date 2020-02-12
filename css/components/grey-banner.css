@@ -1,0 +1,12 @@
+.grey-banner { 
+background-color: rgb(250,240,240);
+color: white;
+margin-top:50px;
+margin-bottom:50px;
+height: 460px;
+background-size: cover;
+background-position:center;
+width:100%;
+opacity: 100%;
+margin-bottom: 40px;
+}
